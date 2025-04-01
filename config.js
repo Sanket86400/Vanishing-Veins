@@ -609,7 +609,7 @@ var config =
           hidden: false,
           title: 'Is this the Vanishing Vein?',
           //image: './assets/buenos-aires.jpg',
-          description: 'With unchecked urbanization, the Nag, Pili, and Pohra rivers (Veins) have become channels of waste, endangering the Gosikhurd Dam and depleting groundwater. If neglected, these veins of the city may collapse within 25 years, leaving a dry and lifeless legacy. Will we act before the river takes its last breath?',
+          description: 'With unchecked urbanization, the Nag, Pili, and Pohra rivers (Veins) have become channels of waste, endangering the Gosikhurd Dam and depleting groundwater. If neglected, these veins of the city may collapse within 25 years, leaving a dry and lifeless legacy.',
           location: 
           {
               center: [79.17544, 21.16756],
