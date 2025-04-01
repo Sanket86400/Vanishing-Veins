@@ -641,7 +641,7 @@ var config =
         alignment: 'right',
         hidden: false,
         title: 'Will we act before the river takes its last breath?',
-        //image: './assets/buenos-aires.jpg',
+        image: './assets/Question Mark.gif',
         //description: 'With unchecked urbanization, the Nag, Pili, and Pohra rivers (Veins) have become channels of waste, endangering the Gosikhurd Dam and depleting groundwater. If neglected, these veins of the city may collapse within 25 years, leaving a dry and lifeless legacy. Will we act before the river takes its last breath?',
         location: 
         {
