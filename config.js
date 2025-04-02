@@ -140,7 +140,7 @@ var config =
                   {
                     layer: 'ambazari-lake',
                     opacity: 1,
-                    duration: 5000,
+                    duration: 3500,
                   }
                 ],
                 onChapterExit: [
@@ -169,21 +169,41 @@ var config =
           callback: '',
           onChapterEnter: [
               {
+              layer: 'ambazari-lake',
+              opacity: 1,
+              duration: 2000,
+              },
+              {
                   layer: 'nag-river-16-km',
                   opacity: 1,
-                  duration: 3500,
+                  duration: 5000,
+              },
+              {
+                layer: 'gorewada-lake-map',
+                opacity: 1,
+                duration: 5000,
               },
               {
                   layer: 'pili-river-from-gorewada',
                   opacity: 1,
-                  duration: 3500,
+                  duration: 6000,
               }
           ],
           onChapterExit: [
               {
+              layer: 'ambazari-lake',
+              opacity: 0,
+              duration: 2500,
+              },
+              {
                   layer: 'nag-river-16-km',
                   opacity: 0,
                   duration: 3000,
+              },
+              {
+                layer: 'gorewada-lake-map',
+                opacity: 0,
+                duration: 3000,
               },
               {
                   layer: 'pili-river-from-gorewada',
@@ -282,7 +302,7 @@ var config =
               {
                 layer: 'gorewada-lake-map',
                 opacity: 0,
-                duration: 3000,
+                duration: 1500,
               }
             ]   
        },
@@ -483,12 +503,17 @@ var config =
               {
                 layer: 'futala-drain-to-sangameshwar',
                 opacity: 1,
-                duration: 2000,
+                duration: 5000,
               },
               {
                 layer: 'nag-river-16-km',
                 opacity: 1,
                 duration: 2000,
+              },
+              {
+                layer: 'futala-map',
+                opacity: 1,
+                duration: 2500,
               },
               
             ],
@@ -496,13 +521,18 @@ var config =
               {
                 layer: 'futala-drain-to-sangameshwar',
                 opacity: 0,
-                duration: 2000,
+                duration: 5000,
               },
               {
                 layer: 'nag-river-16-km',
                 opacity: 0,
                 duration: 2000
-               }
+               },
+               {
+                layer: 'futala-map',
+                opacity: 0,
+                duration: 2000,
+              },
             ],     
          },
 
@@ -619,7 +649,7 @@ var config =
           hidden: false,
           title: 'Is this the Vanishing Vein?',
           //image: './assets/buenos-aires.jpg',
-          description: 'With unchecked urbanization, the Nag, Pili, and Pohra rivers (Veins) have become channels of waste, endangering the Gosikhurd Dam and depleting groundwater. If neglected, these veins of the city may collapse within 25 years, leaving a dry and lifeless legacy.',
+          description: 'With unchecked urbanization, the Nag, Pili, and Pohra rivers (Veins) have become channels of waste, endangering the Gosikhurd Dam and depleting groundwater. If neglected, these veins of the city may collapse within 25 years, leaving a dry and lifeless legacy. Will we act before the river takes its last breath?',
           location: 
           {
               center: [79.17544, 21.16756],
@@ -645,39 +675,6 @@ var config =
               }
             ]    
       },
-
-      {
-        id: 'Chapter 19',
-        alignment: 'right',
-        hidden: false,
-        title: 'Will we act before the river takes its last breath?',
-        image: './assets/Nag RIver Video.mp4',
-        //description: 'With unchecked urbanization, the Nag, Pili, and Pohra rivers (Veins) have become channels of waste, endangering the Gosikhurd Dam and depleting groundwater. If neglected, these veins of the city may collapse within 25 years, leaving a dry and lifeless legacy. Will we act before the river takes its last breath?',
-        location: 
-        {
-            center: [79.17544, 21.16756],
-            zoom: 11.5,
-            pitch: 0,
-            bearing: 0,
-        },
-        mapAnimation: 'flyTo',
-        rotateAnimation: false,
-        callback: '',
-        onChapterEnter:  [
-            {
-              layer: 'vanishing-vein-vector',
-              opacity: 1,
-              duration: 1500,
-            }
-          ],
-          onChapterExit: [
-            {
-              layer: 'vanishing-vein-vector',
-              opacity: 0,
-              duration: 1500,
-            }
-          ]    
-    },
 
     ]
 };
