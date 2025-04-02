@@ -189,7 +189,7 @@ var config =
                   layer: 'pili-river-from-gorewada',
                   opacity: 0,
                   duration: 3000,
-                },
+              }
               ]    
         },
         {
@@ -249,7 +249,7 @@ var config =
           alignment: 'left',
           hidden: false,
           title: 'Lava Hills: The Vanished Basin',
-          //image: './assets/buenos-aires.jpg',
+        image: './assets/Lava Hills.png',
           description: 'Geological evidence reveals that its actual source lies in the Lava Hills, with lineaments governing the flow of the Nag River, Pili River, and their tributaries.',
           location: 
           {
@@ -266,6 +266,11 @@ var config =
                 layer: 'lava-hills',
                 opacity: 1,
                 duration: 1500,
+              },
+              {
+                layer: 'gorewada-lake-map',
+                opacity: 1,
+                duration: 3500,
               }
             ],
             onChapterExit: [
@@ -273,6 +278,11 @@ var config =
                 layer: 'lava-hills',
                 opacity: 0,
                 duration: 1500,
+              },
+              {
+                layer: 'gorewada-lake-map',
+                opacity: 0,
+                duration: 3000,
               }
             ]   
        },
@@ -641,7 +651,7 @@ var config =
         alignment: 'right',
         hidden: false,
         title: 'Will we act before the river takes its last breath?',
-        image: './assets/Question Mark.gif',
+        image: './assets/Nag RIver Video.mp4',
         //description: 'With unchecked urbanization, the Nag, Pili, and Pohra rivers (Veins) have become channels of waste, endangering the Gosikhurd Dam and depleting groundwater. If neglected, these veins of the city may collapse within 25 years, leaving a dry and lifeless legacy. Will we act before the river takes its last breath?',
         location: 
         {
