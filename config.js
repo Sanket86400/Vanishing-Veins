@@ -21,8 +21,38 @@ var config =
     byline: 'By: Sanket Hajare | Guide: Prof.Chakradhar & Jitesh Chowdhury | Information Design | NID-B',
 
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
-    chapters: 
-    [
+    chapters: [
+       {
+          id: 'initial-state',
+          alignment: 'left',
+          hidden: true,
+          title: '',
+          description: '',
+          location: {
+              center: [79.08200, 21.15097],
+              zoom: 1.24,
+              pitch: 0,
+              bearing: 0
+          },
+          mapAnimation: 'flyTo',
+          rotateAnimation: false,
+          onChapterEnter: [
+              { layer: 'ambazari-lake', opacity: 0, duration: 0 },
+              { layer: 'nag-river-16-km', opacity: 0, duration: 0 },
+              { layer: 'gorewada-lake-map', opacity: 0, duration: 0 },
+              { layer: 'pili-river-from-gorewada', opacity: 0, duration: 0 },
+              { layer: 'lava-hills', opacity: 0, duration: 0 },
+              { layer: 'lava-to-ambazari-drain', opacity: 0, duration: 0 },
+              { layer: 'ambazari-catchment-area', opacity: 0, duration: 0 },
+              { layer: 'shankar-nagar-wqi', opacity: 0, duration: 0 },
+              { layer: 'futala-drain-to-sangameshwar', opacity: 0, duration: 0 },
+              { layer:  'futala-map', opacity: 0, duration: 0 },
+              { layer: 'sangameshwar-temple-area', opacity: 0, duration: 0 },
+              { layer: 'all-drains-of-nag-river', opacity: 0, duration: 0 },
+              { layer: 'vanishing-vein-vector', opacity: 0, duration: 0 },      
+          ],
+          onChapterExit: []
+       },
         {
             id: 'Chapter 1',
             alignment: 'left',
@@ -176,7 +206,7 @@ var config =
               {
                   layer: 'nag-river-16-km',
                   opacity: 1,
-                  duration: 5000,
+                  duration: 3000,
               },
               {
                 layer: 'gorewada-lake-map',
@@ -401,7 +431,7 @@ var config =
               {
                 layer: 'ambazari-catchment-area',
                 opacity: 0,
-                duration: 5000,
+                duration: 7000,
               },
              ]     
          },
@@ -443,9 +473,9 @@ var config =
           id: 'Chapter 13',
           alignment: 'left',
           hidden: false,
-          title: 'Drastic Drop in WQI from 75-35 within 2 km',
+          title: 'Drastic Drop in WQI (From 75 to 35)',
           image: './assets/Nag RiverShankar Nagar.jpg',
-          description: 'The WQI suddenly drops to 35 just at the Shankar Nagar. The underground drainage system hides most of the contamination.',
+          description: 'The WQI suddenly drops to 35 just after the river covers a distance of 2.5 km. The underground drainage system hides most of the contamination.',
           location: 
           {
             center:[79.06093, 21.13500],
@@ -458,19 +488,19 @@ var config =
             callback: '',
             onChapterEnter: [
                {
-                 layer: 'shankar-nagar-zone',
+                 layer: 'shankar-nagar-wqi',
                  opacity: 1,
                  duration: 5000,
                },
                {
                 layer: 'nag-river-16-km',
                 opacity: 1,
-                duration: 2000
+                duration: 3000
               },
              ],
              onChapterExit: [
                {
-                 layer: 'shankar-nagar-zone',
+                 layer: 'shankar-nagar-wqi',
                  opacity: 0,
                  duration: 5000,
                },
