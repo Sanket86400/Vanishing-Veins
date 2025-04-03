@@ -44,7 +44,7 @@ var config =
               { layer: 'lava-hills', opacity: 0, duration: 0 },
               { layer: 'lava-to-ambazari-drain', opacity: 0, duration: 0 },
               { layer: 'ambazari-catchment-area', opacity: 0, duration: 0 },
-              { layer: 'shankar-nagar-wqi', opacity: 0, duration: 0 },
+              { layer: 'shanlkar-nagar-wqi', opacity: 0, duration: 0 },
               { layer: 'futala-drain-to-sangameshwar', opacity: 0, duration: 0 },
               { layer:  'futala-map', opacity: 0, duration: 0 },
               { layer: 'sangameshwar-temple-area', opacity: 0, duration: 0 },
@@ -488,7 +488,7 @@ var config =
             callback: '',
             onChapterEnter: [
                {
-                 layer: 'shankar-nagar-wqi',
+                 layer: 'shanlkar-nagar-wqi',
                  opacity: 1,
                  duration: 5000,
                },
@@ -500,7 +500,7 @@ var config =
              ],
              onChapterExit: [
                {
-                 layer: 'shankar-nagar-wqi',
+                 layer: 'shanlkar-nagar-wqi',
                  opacity: 0,
                  duration: 5000,
                },
