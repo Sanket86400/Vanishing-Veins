@@ -18,7 +18,7 @@ var config =
     auto: false,
     title: 'The Vanishing Veins of Central India',
     subtitle: '',
-    byline: 'By: Sanket Hajare | Guide: Chakradhar.S & Jitesh Chowdhury | Information Design | NID-Bengaluru',
+    byline: 'By: Sanket Hajare | Guides: Chakradhar.S & Jitesh Chowdhury | Information Design | NID-Bengaluru',
 
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
