@@ -59,7 +59,7 @@ var config =
             hidden: false,
             title: 'Overview',
             //image: './assets/san-fran.jpeg',
-            description: 'Rivers are the essence of life, sustaining ecosystems and keeping this very Planet Earth alive. In India, they have shaped cultures, communities, and served as lifelines for many cities to thrive. Yet many rivers vanishng from the Map. The realization to revive them often comes only when the damage is undeniable and irreversible!',
+            description: 'Rivers are the source of life, sustaining ecosystems and keeping this very Planet Earth alive. In India, they have shaped cultures, communities, and served as lifelines for many cities to thrive. Yet many rivers vanishng from the Map. The realization to revive them often comes only when the damage is undeniable and irreversible!',
             location: {
                 center: [79.08200, 21.15097],
                 zoom: 1.24,
@@ -93,7 +93,7 @@ var config =
             id: 'Chapter 2',
             alignment: 'left',
             hidden: false,
-            title:'Another day, Another River',
+            title:'Another River on Brink',
             //image: './assets/san-fran.jpeg',
             description: 'Amid this fading legacy, one river stands on the brink of reclaiming its identity. This is the story of the Nag River — the umbilical cord of Nagpur (a city in Central India.)',
             location: {
